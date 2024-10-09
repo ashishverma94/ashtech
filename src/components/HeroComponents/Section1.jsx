@@ -26,6 +26,12 @@ const Section1 = () => {
           praesent quisque nullam.
         </p>
       </span>
+
+      {/* SECTION TAG  */}
+      <div className="h-[19px] w-[140px] absolute top-[178px] left-0 z-10 hidden 1000px:flex flex-row gap-[16px] items-center">
+      <div className="w-[40px] h-[1px] bg-[black] "></div>
+        <span className="text-[16px] text-[#000200]">OVERVIEW</span>
+      </div>
     </div>
   );
 };
