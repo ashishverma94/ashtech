@@ -7,6 +7,8 @@ const Section1 = () => {
       <span className="text-[10cqw] leading-[10cqw] 1000px:text-[18cqw] 1000px:leading-[18cqw]">
         Lorem ipsum dolor sit amet consectet
       </span>
+
+      {/* VISIBLE ON MOBILE SCREENS ONLY ( BELOW 600PX )  */}
       <div className="w-full block 600px:hidden">
         <Section3 />
       </div>
